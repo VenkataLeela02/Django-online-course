@@ -145,7 +145,7 @@ def show_exam_result(request, course_id, submission_id):
     submission = request.POST['submission_id']
     choices = choices.objects.get(submission = submission)
     for choice_id in choices:
-        if choices[choice_id] = submitted_anwsers[choice_id]
+        if choices[choice_id] = submitted_anwsers[choice_id]:
             grade + 1
     return grade
 
